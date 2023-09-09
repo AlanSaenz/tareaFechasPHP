@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>En esta pagina se encontrara una serie de botones que utilizan el PHP para obtener la fecha, la hora y demas informacion.</h1>
+
+    <div id="contenedor_ejemplo">
+        <h3>Aqui se mostrara lo que el boton realice</h3>
+    </div>
+
+    <div class="contenedor_boton">
+        <button onclick="mostrarResultado(1)">Revisar si se encuentra en mantenimiento el sitio web</button>
+    </div>
+
+    <div class="contenedor_boton">
+        <button onclick="mostrarResultado(2)">mostrar Día, Mes, Año, Hora, Minutos, Segundos</button>
+    </div>
+
+    <div class="contenedor_boton">
+        <div id="solicitar_fecha">
+            <label for="dia">Dia</label>
+            <input type="text" id="dia_r" required>
+        
+            <label for="mes">Mes</label>
+            <input type="text" id="mes_r" required>
+
+            <label for="año">Año</label>
+            <input type="text" id="año_r" required>
+        </div>
+
+        <button onclick="diferenciaFecha(3)">Ver la diferencia entre un fecha y hoy</button>
+    </div>
+
+    <div class="contenedor_boton">
+        <button onclick="mostrarResultado(4)">Mostrar la fecha de hoy completa</button>
+    </div>
+
+    <div class="contenedor_boton">
+        <div id="solicitar_fecha">
+            <label for="dia">Dia</label>
+            <input type="text" id="dia_confirmar" required>
+        
+            <label for="mes">Mes</label>
+            <input type="text" id="mes_confirmar" required>
+
+            <label for="año">Año</label>
+            <input type="text" id="año_confirmar" required>
+        </div>
+
+        <button onclick="confirmarFecha(5)">Existe esta Fecha</button>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

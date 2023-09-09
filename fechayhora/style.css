@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+}
+
+#contenedor_ejemplo {
+    background-color: gray;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contenedor_boton {
+    margin: 10px auto;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    margin-bottom: 5px;
+}
+
+label {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
